@@ -1,3 +1,3 @@
-public class EstrategiaComision {
-    
+public interface EstrategiaComision {
+    double calcularComision(double montoVenta);
 }
