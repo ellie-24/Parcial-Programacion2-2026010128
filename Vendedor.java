@@ -6,7 +6,7 @@ public class Vendedor extends Empleado {
     @Override
     public void mostrarDetalle() {
 
-        double comision = estrategia.CalcularComision(ventasMes);
+        double comision = estrategia.calcularComision(ventasMes);
 
         System.out.println("Nombre: " + nombre);
         System.out.println("Ventas del mes: $" + ventasMes);
