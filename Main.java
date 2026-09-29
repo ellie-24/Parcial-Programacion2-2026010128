@@ -2,8 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        EstrategiaComision estrategia = new ComisionEstandar();
-        //creando conflictos a proposito
+        EstrategiaComision estrategia = new ComisionPersonalizada("Elisa");
 
         Vendedor vendedor = new Vendedor(
             "Ellie",
